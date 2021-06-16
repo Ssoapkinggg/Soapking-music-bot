@@ -1,12 +1,12 @@
 {
-  "name": "Music Man",
+  "name": "Soapking music bot",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/mrismanaziz/Music-Man",
+  "repository": "https://github.com/Azel-kochoyy/Soapking music bot",
   "stack": "container",
   "buildpacks": [
    {
-     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+     "url": "https://github.com/Soapking/heroku-buildpack-ffmpeg-latest"
    }   
   ], 
   "env": {
