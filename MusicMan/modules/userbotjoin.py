@@ -31,14 +31,14 @@ async def addchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Tambahkan saya sebagai admin grup Anda terlebih dahulu</b>",
+            "<b>Jadiin gua admin dulu ya ngentot</b>",
         )
         return
 
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "MusicMan"
+        user.first_name = "Soapking music bot"
 
     try:
         await USER.join_chat(invitelink)
@@ -113,7 +113,7 @@ async def addcchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "MusicMan"
+        user.first_name = "Soapking music bot"
 
     try:
         await USER.join_chat(invitelink)
